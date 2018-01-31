@@ -3,7 +3,7 @@ public class Objective1Lab1{
 
 
     /*
-      System.out.println("Alan Frederick")
+      System.out.println("Alan Frederick");
 
     */
 
