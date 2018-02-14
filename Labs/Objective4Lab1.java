@@ -5,7 +5,6 @@ public class Objective4Lab1 {
   public static void main(String[] args) {
     int num1 = 5;
     int num2 = 15;
-    Scanner input = new Scanner(System.in);
 
     if(num1 > num2) {
       out.print(num1 + " is greater than " + num2);
