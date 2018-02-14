@@ -20,7 +20,7 @@ public class ShallowGrandmother {
     happy = keyboard.nextDouble();
 
     //added happy requirement
-    allowed = ( age > 25 && age < 40 && happy > 7 && ( income > 5000 || cute >= 8.5));
+    allowed = ( age > 25 && age < 40 && happy > 7 && ( income > 50000 || cute >= 8.5));
 
 
     System.out.println( "Allowed to date my grandchild? " + allowed );
