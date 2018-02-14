@@ -1,5 +1,4 @@
 import static java.lang.System.*;
-import java.util.Scanner;
 
 public class Objective4Lab1 {
   public static void main(String[] args) {
