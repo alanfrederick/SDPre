@@ -12,7 +12,7 @@ public class EnterPin {
     System.out.println("PLEASE ENTER YOUR PASSWORD");
     typedPassword = keyboard.next();
 
-    while (! typedPassword.equals("hunter2") ) {
+    while (! typedPassword.equals("hunter2") /*all i see is ****** */ ) {
       System.out.println("\nINCORRECT PASSWORD.  TRY AGAIN.");
       System.out.println("\nENTER YOUR PASSWORD: ");
       typedPassword = keyboard.next();
