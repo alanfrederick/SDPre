@@ -40,10 +40,6 @@ public class PigDice {
         do {
           roll = 1 + (int)(Math.random()*6);
           System.out.println("\tThe computer rolled a " + roll + ".");
-          if (ctot >= 100) {
-            System.out.println("\tThe computer wins.");
-            turnTotal = 0;
-          }
           if (roll == 1){
             System.out.println("\tThat ends its turn.");
             turnTotal = 0;
@@ -57,7 +53,7 @@ public class PigDice {
               System.out.println("\tComputer will roll again.");
             }
           }
-        } while (roll != 1 && turnTotal < 20);
+        } while (roll != 1 && turnTotal < 20 && ctot + turnTotal < 100);
 
         ctot += turnTotal;
         System.out.print("\tComputer ends the round with ");
